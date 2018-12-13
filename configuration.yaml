@@ -23,6 +23,9 @@ config:
 # http:
 #   base_url: example.duckdns.org:8123
 
+http:
+  api_password: !secret ha_api_password
+
 # Checks for available updates
 # Note: This component will send some information about your system to
 # the developers to assist with development of Home Assistant.
