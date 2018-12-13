@@ -19,7 +19,7 @@ lights:
   name: Lights
   entities: 
     - switch.downstairs_sentsy
+    - switch.holiday_lights
     - switch.holiday_lights_2
-    - switch.tree_lights
     - switch.outside_lights
     - switch.tree_lights
