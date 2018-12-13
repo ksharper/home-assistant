@@ -1,0 +1,41 @@
+- platform: mqtt
+  name: "Outside Lights"
+  state_topic: "smartthings/Outside Lights/switch"
+  command_topic: "smartthings/Outside Lights/switch"
+  brightness_state_topic: "smartthings/Outside Lights/level"
+  brightness_command_topic: "smartthings/Outside Lights/level"
+  payload_on: "on"
+  payload_off: "off"
+  retain: true
+
+- platform: mqtt
+  name: "Tree Lights"
+  state_topic: "smartthings/Tree Lights/switch"
+  command_topic: "smartthings/Tree Lights/switch"
+  payload_on: "on"
+  payload_off: "off"
+  retain: true
+
+- platform: mqtt
+  name: "Holiday Lights"
+  state_topic: "smartthings/Holiday Lights/switch"
+  command_topic: "smartthings/Holiday Lights/switch"
+  payload_on: "on"
+  payload_off: "off"
+  retain: true
+
+- platform: mqtt
+  name: "Holiday Lights 2"
+  state_topic: "smartthings/Holiday Lights 2/switch"
+  command_topic: "smartthings/Holiday Lights 2/switch"
+  payload_on: "on"
+  payload_off: "off"
+  retain: true
+
+- platform: mqtt
+  name: "Downstairs Sentsy"
+  state_topic: "smartthings/Downstairs Sentsy/switch"
+  command_topic: "smartthings/Downstairs Sentsys/switch"
+  payload_on: "on"
+  payload_off: "off"
+  retain: true
